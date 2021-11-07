@@ -184,5 +184,19 @@
                 <p class="autor">DESIGN BY: <b style="color: black;">WWW.BEKADES.COM</b></p>
             </footer>
         </main>
+        
+        <script>
+            var time_start = performance.now()
+
+            function ready() {
+                console.log('Время загрузки (DOMContentLoaded) = ' + (performance.now() - time_start) + ' мс')
+            }
+
+            document.addEventListener("DOMContentLoaded", ready);
+
+            window.onload = function() {
+                console.log('Время загрузки (onload) = ' + (performance.now() - time_start) + ' мс')
+            }
+        </script>
     </body>
 </html>
