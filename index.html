@@ -114,15 +114,35 @@
                 flex-grow: 0;
                 flex-wrap: wrap;
             }
-            .main_header .header-text1 {
-                font: italic 700 24px "Times New Roman", serif;
-                color: white;
+
+            @media (max-width: 767px) {
+                .main_header .header-text1 {
+                    font: italic 700 24px "Times New Roman", serif;
+                    color: white;
+                }
             }
-            .main_header .header-text2 {
-                font: 700 60px "Lato", sans-serif;
-                text-transform: uppercase;
-                color: white;
+            @media (min-width: 768px) {
+                .main_header .header-text1 {
+                    font: italic 700 36px "Times New Roman", serif;
+                    color: white;
+                }
             }
+
+            @media (max-width: 767px) {
+                .main_header .header-text2 {
+                    font: 700 60px "Lato", sans-serif;
+                    text-transform: uppercase;
+                    color: white;
+                }
+            }
+            @media (min-width: 768px) {
+                .main_header .header-text2 {
+                    font: 700 100px "Lato", sans-serif;
+                    text-transform: uppercase;
+                    color: white;
+                }
+            }
+
             .main_header .header-text3 {
                 margin-top: 40px;
                 margin-bottom: 70px;
@@ -142,13 +162,26 @@
                 text-transform: uppercase;
                 color: white;
             }
-            .main_header .btn_start {
-                font: 700 15px "Lato", sans-serif;
-                color: white;
-                text-decoration: none;
-                border: 3px solid white;
-                padding: 17px 74px 22px 72px;
+
+            @media (max-width: 767px) {
+                .main_header .btn_start {
+                    font: 700 15px "Lato", sans-serif;
+                    color: white;
+                    text-decoration: none;
+                    border: 3px solid white;
+                    padding: 17px 74px 22px 72px;
+                }
             }
+            @media (min-width: 768px) {
+                .main_header .btn_start {
+                    font: 700 15px "Lato", sans-serif;
+                    color: white;
+                    text-decoration: none;
+                    border: 3px solid white;
+                    padding: 22px 79px 27px 77px;
+                }
+            }
+
             main .main-banner1 {
                 background: white;
                 display: flex;
