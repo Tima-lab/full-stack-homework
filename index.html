@@ -642,10 +642,15 @@
                 <div class="main-banner1-second">
                     <div class="circle">
                         <amp-img
-                            src="materials/money.png"
+                            src="materials/money.webp"
                             width="60"
-                            height="32"
-                        ></amp-img>
+                            height="32">
+                            <amp-img
+                                fallback
+                                src="materials/money.png"
+                                width="60"
+                                height="32"></amp-img>
+                        </amp-img>
                         <!-- <img alt="money" src="materials/money.png"> -->
                     </div>
                     <span class="title-text">get rewarded</span>
@@ -657,10 +662,15 @@
                 <div class="main-banner1-third">
                     <div class="circle">
                         <amp-img
-                            src="materials/chief.png"
+                            src="materials/chief.webp"
                             width="60"
-                            height="60"
-                        ></amp-img>
+                            height="60">
+                            <amp-img
+                                fallback
+                                src="materials/chief.png"
+                                width="60"
+                                height="60"></amp-img>
+                        </amp-img>
                         <!-- <img alt="chief" src="materials/chief.png"> -->
                     </div>
                     <span class="title-text">get social</span>
@@ -674,11 +684,17 @@
             <div class="main-banner2">
                 <div class="main-banner2-left">
                     <amp-img
+                        src="materials/phone.webp"
+                        layout="intrinsic"
+                        width="548"
+                        height="779">
+                        <amp-img
+                            fallback
                             src="materials/phone.png"
                             layout="intrinsic"
                             width="548"
-                            height="779"
-                    ></amp-img>
+                            height="779"></amp-img>
+                    </amp-img>
                     <!-- <img alt="phone" src="materials/phone.png" style="display: block;"> -->
                 </div>
                 <div class="main-banner2-right">
@@ -700,20 +716,32 @@
                     <div class="phone-market-link">
                         <a href="#">
                             <amp-img
-                                src="materials/app-store.png"
+                                src="materials/app-store.webp"
                                 alt="app-store"
                                 width="112"
-                                height="39"
-                            ></amp-img>
+                                height="39">
+                                <amp-img
+                                    fallback
+                                    src="materials/app-store.png"
+                                    alt="app-store"
+                                    width="112"
+                                    height="39"></amp-img>
+                            </amp-img>
                             <!-- <img alt="app-store" src="materials/app-store.png"> -->
                         </a>
                         <a href="#">
                             <amp-img
-                                src="materials/google-play.png"
+                                src="materials/google-play.webp"
                                 alt="google-play"
                                 width="120"
-                                height="39"
-                            ></amp-img>
+                                height="39">
+                                <amp-img
+                                    fallback
+                                    src="materials/google-play.png"
+                                    alt="google-play"
+                                    width="120"
+                                    height="39"></amp-img>
+                            </amp-img>
                             <!-- <img alt="google-play" src="materials/google-play.png"> -->
                         </a>
                     </div>
@@ -722,11 +750,17 @@
 
             <div class="main-banner3">
                 <amp-img
-                    src="materials/profile.png"
+                    src="materials/profile.webp"
                     alt="profile"
                     width="114"
-                    height="114"
-                ></amp-img>
+                    height="114">
+                    <amp-img
+                        fallback
+                        src="materials/profile.png"
+                        alt="profile"
+                        width="114"
+                        height="114"></amp-img>
+                </amp-img>
                 <!-- <img alt="profile" src="materials/profile.png"> -->
                 <p class="message">
                     “I am so happy because I found this recipe, and it just made my life easier.<br>
@@ -738,29 +772,43 @@
                 <div class="points">
                     <a href="#">
                         <amp-img
-                            src="materials/fill_point.png"
+                            src="materials/fill_point.webp"
                             alt="fill-point"
                             width="10"
-                            height="10"
-                        ></amp-img>
+                            height="10">
+                            <amp-img
+                                fallback
+                                src="materials/fill_point.png"
+                                alt="fill-point"
+                                width="10"
+                                height="10"></amp-img>
+                        </amp-img>
                         <!-- <img alt="fill-point" src="materials/fill_point.png"> -->
                     </a>
                     <a href="#">
-                        <amp-img
-                            src="materials/point.png"
-                            alt="point"
+                        <amp-img alt="point"
                             width="10"
                             height="10"
-                        ></amp-img>
+                            src="materials/point.webp">
+                            <amp-img alt="point"
+                                fallback
+                                width="10"
+                                height="10"
+                                src="materials/point.png"></amp-img>
+                        </amp-img>
                         <!-- <img alt="point" src="materials/point.png"> -->
                     </a>
                     <a href="#">
-                        <amp-img
-                            src="materials/point.png"
-                            alt="point"
+                        <amp-img alt="point"
                             width="10"
                             height="10"
-                        ></amp-img>
+                            src="materials/point.webp">
+                            <amp-img alt="point"
+                                fallback
+                                width="10"
+                                height="10"
+                                src="materials/point.png"></amp-img>
+                        </amp-img>
                         <!-- <img alt="point" src="materials/point.png"> -->
                     </a>
                 </div>
